@@ -1,0 +1,16 @@
+title: SD Card Data Recovery
+description: How to recover your data from your SD Card?
+template:
+  repo: sd-card-data-recovery-template
+  name: sd-card-data-recovery
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
